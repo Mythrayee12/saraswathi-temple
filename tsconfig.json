@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx", // Ensure this is set to "react-jsx" or "react" (see Fix 3)
+    "baseUrl": "./src", // This is crucial for absolute paths
+    "paths": {
+      "@/*": ["./*"], // This maps '@/anything' to 'src/anything'
+      "@/lib/*": ["./lib/*"], // This specifically maps '@/lib/utils' to 'src/lib/utils'
+      "@/components/*": ["./components/*"] // Add this for clarity, though "@/*" might cover it
+      // Add other aliases if you have them, e.g., "@/utils/*": ["./utils/*"]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
