@@ -4,6 +4,8 @@
 
 This is the official website for the Saraswati Temple, designed to serve our community by providing information about temple events, services, and spiritual resources. Built with modern web technologies, it aims to offer a seamless and engaging experience for devotees.
 
+https://saraswathi-temple.web.app/
+
 ## 🌟 Features
 
 * **Dynamic Event Calendar:** Stay updated with upcoming pujas, festivals, and special events.
@@ -53,24 +55,23 @@ npm start
 # Or if you use Yarn:
 # yarn start
 This will open the application in your browser at http://localhost:3000 (or another port if 3000 is in use). The page will reload if you make edits.
-
-📦 Building for Production
+```
+**📦 Building for Production**
 To create a production-ready build of the application:
 
-Bash
+```bash
 
 npm run build
 # Or if you use Yarn:
 # yarn build
+```
 This command builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
-🤝 Contributing
+**🤝 Contributing**
 Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly appreciated.
 
-📄 License
+**📄 License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
----
 
 Remember to replace `<your-repository-url>` with the actual URL of your Git repository. Also, adjust the Firebase environment variables section if your project uses different variable names or doesn't use Firebase.
